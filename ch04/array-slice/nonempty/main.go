@@ -10,7 +10,7 @@ func main() {
 }
 
 // 在原有内存空间修改元素
-// 输入的 slice 和输出的 slice 共享一个底层数组，原来的数据将可能会被覆盖
+// 输入的 array-slice 和输出的 array-slice 共享一个底层数组，原来的数据将可能会被覆盖
 func nonempty(strings []string) []string {
 	i := 0
 	for _, s := range strings {
